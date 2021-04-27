@@ -133,7 +133,7 @@ public:
 
 istream &operator >>(istream &stream, Treasure_box &obj){
 
-    cout << "make sure that element you're entering bigger than 11 and lowwer then 55"<< endl;
+    cout << "make sure that element you're entering are appropriate for our matrix"<< endl;
     for (int i = 0; i< 5 ; i++){
         for (int j = 0; j <5; j++){
             int elem;
